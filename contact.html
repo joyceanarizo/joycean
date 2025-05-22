@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Centered Contact Info with Clickable Email</title>
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+h2 {
+  color: #333;
+  font-size: 2em;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 2.0em;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 15px;
+  font-size: 1.0em;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 1.0 em;
+}
+.email-link {
+  text-decoration: none; 
+  color: blue; 
+}
+
+.email-link:hover {
+  text-decoration: underline; 
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Contacts</h2>
+  <p>Feel free to reach out if you have any questions or want to collaborate.You can email me  <a href="mailto:arizojoyce@gmail.com" class="email-link">arizojoyce@gmail.com</a> or connect with me on social media platforms.</p>
+
+  <div class="contact-info">
+    <span class="contact-icon">&#9993;</span> 
+    <a href="mailto:arizojoyce@gmail.com" class="email-link">arizojoyce@gmail.com</a>
+  </div>
+  <div class="contact-info">
+    <span class="contact-icon">&#9742;</span> +09851336789
+  </div>
+</div>
+</body>
+</html>
